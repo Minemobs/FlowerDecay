@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.minemobs.flowerdecay.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "flowerdecay.refmap.json",
+  "mixins": [
+    "MixinBlockSpecialFlower",
+    "MixinTileEntitySpecialFlower"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

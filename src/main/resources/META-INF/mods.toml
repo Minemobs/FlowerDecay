@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "mpl-2.0"
+[[mods]] #mandatory
+modId = "flowerdecay" #mandatory
+version = "${file.jarVersion}" #mandatory
+displayName = "Flower Decay" #mandatory
+authors = "minemobs" #optional
+credits = ""
+description = '''
+Hello world!
+'''
+[[dependencies.flowerdecay]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.flowerdecay]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.flowerdecay]]
+modId = "botania"
+mandatory = true
+versionRange = "[1.16.5-416,)"
+ordering = "NONE"
+side = "BOTH"
