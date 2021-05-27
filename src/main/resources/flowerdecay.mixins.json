@@ -6,6 +6,7 @@
   "refmap": "flowerdecay.refmap.json",
   "mixins": [
     "MixinBlockSpecialFlower",
+    "MixinTileEntityGeneratingFlower",
     "MixinTileEntitySpecialFlower"
   ],
   "client": [

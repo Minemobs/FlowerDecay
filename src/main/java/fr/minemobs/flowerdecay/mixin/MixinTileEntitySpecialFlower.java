@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import vazkii.botania.api.subtile.TileEntitySpecialFlower;
 
 @Mixin(value = TileEntitySpecialFlower.class)
-public abstract class MixinTileEntitySpecialFlower extends TileEntity {
+public class MixinTileEntitySpecialFlower extends TileEntity {
 
     @Shadow(remap = false) public int ticksExisted;
 
